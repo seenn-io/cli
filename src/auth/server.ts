@@ -19,13 +19,13 @@ const SUCCESS_HTML = `
       align-items: center;
       min-height: 100vh;
       margin: 0;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: #f9fafb;
     }
     .card {
       background: white;
       padding: 48px;
-      border-radius: 16px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
       text-align: center;
       max-width: 400px;
     }
@@ -84,13 +84,13 @@ const ERROR_HTML = (message: string) => `
       align-items: center;
       min-height: 100vh;
       margin: 0;
-      background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+      background: #f9fafb;
     }
     .card {
       background: white;
       padding: 48px;
-      border-radius: 16px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
       text-align: center;
       max-width: 400px;
     }
